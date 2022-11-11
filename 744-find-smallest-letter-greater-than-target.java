@@ -40,7 +40,7 @@ Try to find whether each of 26 next letters are in the given string array.
 class Solution {
     public char nextGreatestLetter(char[] letters, char target) {
         
-        // You're doing a brute force linear search O(n) whereas this is a classic binary search O(log n) problem. This solution will not be acceptable in any interview.
+        /* You're doing a brute force linear search O(n) whereas this is a classic binary search O(log n) problem. This solution will not be acceptable in any interview.
         
         // go through each element via index in letters...
         for (int i=0; i<letters.length; i++){
@@ -51,3 +51,37 @@ class Solution {
                 return letters[i];
             }
         }
+        return letters[0];
+        */
+        
+        // Optimized solution (binary search) is the one you should use in an interview!!!
+        
+        // to handle the wrap around, we'll set result's default to the first letter of the character array
+        int answer = letters[0];
+        
+        // perform regular binary two-pointer search...
+        int left_pointer = 0;
+        int right_pointer = letters.length-1;
+        
+        
+        while (left_pointer <= right_pointer){
+            // find middle element by dividing total in 2...but the Java way
+            int middle = left_pointer + (right_pointer - left_pointer) / 2;
+            
+            // if tar
+            if (target >= letters[middle]) {
+                left_pointer = middle + 1;
+            } else {
+                right_pointer = middle - 1;
+                
+            }
+                
+            
+        } //wrap around condition met (when s>e)
+        return letters[left_pointer%letters.length];     
+
+    }
+}
+
+     
+     
