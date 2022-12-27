@@ -1,6 +1,18 @@
 class Result {
 
     /*
+    
+    
+    Problem prompt:
+    Task queues, which allow for asynchronous perforamnce, are an important part of modern processing architectures. Information about a system consisting of several batch processing queues is given.
+    Each queue has 3 parameters:
+    ~ max num of tasks it can process in a single batch.
+    ~ the time it takes to process a single batch of tasks in that queue.
+    ~ the number of tasks the queue must process
+    
+    Given this information, calculate the minimum time needed to process a set of tasks by the system.
+    
+    
      * Complete the 'minTime' function below.
      *
      * The function is expected to return a LONG_INTEGER.
