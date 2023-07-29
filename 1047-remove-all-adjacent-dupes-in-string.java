@@ -5,6 +5,8 @@ We repeatedly make duplicate removals on s until we no longer can.
 
 Return the final string after all such duplicate removals have been made. It can be proven that the answer is unique.
 
+https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/
+
  
 
 Example 1:
