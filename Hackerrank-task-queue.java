@@ -41,16 +41,16 @@ class Result {
      */
 
     public static long minTime(List<Integer> batchSize, List<Integer> processingTime, List<Integer> numTasks) {
-    // Write your code here
+        double time = 0.0;
     
-    double time = 0.0;
+        for (int i = 0; i < batchSize.size(); i++) {
+            double tempTime = (Math.ceil(numTasks.get(i) / (double) batchSize.get(i))) * processingTime.get(i);
+            time = Math.max(tempTime, time);
+        }
     
-    for (int i = 0; i < batchSize.size(); i++){
-        double tempTime = (Math.ceil(numTasks.get(i)/(double)batchSize.get(i))) * processingTime.get(i);
-        time = Math.max(tempTime, time);
+        return (long) time;
     }
- 
-    return (long)time;
+
 
     }
 
