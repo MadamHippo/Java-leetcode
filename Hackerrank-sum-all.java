@@ -1,4 +1,5 @@
 // Calculate the sum of an array of integers.
+// https://www.hackerrank.com/challenges/simple-array-sum/problem
 
 // HINT: hackerrank is silly, it says array of integers but it's a LIST!!!! xD
 
@@ -7,7 +8,7 @@ class Result {
 
     /*
      * Complete the 'arraySum' function below.
-     *
+     * 
      * The function is expected to return an INTEGER.
      * The function accepts INTEGER_ARRAY numbers as parameter.
      */
