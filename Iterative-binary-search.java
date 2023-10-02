@@ -1,4 +1,4 @@
-// Part of Java Docs....https://docs.google.com/document/d/1ixgYGfNQ4XN9-dom-clmC-O5TkgJ7e1fbcrMaVhaMpA
+// Part of Java Docs...https://docs.google.com/document/d/1ixgYGfNQ4XN9-dom-clmC-O5TkgJ7e1fbcrMaVhaMpA
 
 public class BinarySearchClass {
    public static void main(String[] args) {
