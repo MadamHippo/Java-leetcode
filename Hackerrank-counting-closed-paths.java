@@ -23,7 +23,6 @@ class Result {
      */
 
     public static int closedPaths(int number) {
-    // Write your code here
     
     // We need to take each digit out of int number, can be done with math tricks % and / and then use stack to get the order back since it defaults to reverse order...
     
