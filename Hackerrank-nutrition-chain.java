@@ -4,8 +4,9 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-/*
 
+/*
+** Abstract and Extend class practice!!
 Nutrition in food can be broken down in proteins, fats, and carbohydrates. Implement the following classes about food and nutrition to complete this challenge.
 
 astract class Food having the following properties:
@@ -14,8 +15,6 @@ astract class Food having the following properties:
  ~double carbs
  ~double tastyScore
  ~void getMacroNutrients[Abstract Method]
-
-** Abstract and Extend class practice!!
 
 */
 
