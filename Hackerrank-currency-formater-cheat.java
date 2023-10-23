@@ -1,4 +1,4 @@
-// Not my code, and using built-ins...because this is an annoying problem and built ins exist for a reason.
+// Note: Not my code, and using built-ins...because this is an annoying problem and built ins exist for a reason.
 
 import java.text.NumberFormat;
 import java.util.Currency;
