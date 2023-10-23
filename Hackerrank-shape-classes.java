@@ -1,7 +1,3 @@
-
-import java.io.*;
-import java.util.*;
-
 /* Implement your classes here. Do not use access modifiers in your class declarations.
 
 SHAPE CLASSES - In this challenge you will write 3 shape classes that return a calculated area for each shape.
@@ -10,9 +6,11 @@ Implement the following classes and methods: A circle class with...
 ~Constructor
 ~getArea() method
 
-Practice encapsulation...
-
 */
+
+
+import java.io.*;
+import java.util.*;
 
 class Circle {
 
