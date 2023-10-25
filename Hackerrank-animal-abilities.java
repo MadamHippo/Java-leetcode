@@ -1,9 +1,10 @@
+// how to implement multiple interfaces with a Class
+
 import java.io.*;
 import java.util.*;
 import java.text.*;
 import java.math.*;
 import java.util.regex.*;
-// how to implement multiple interfaces with a Class
 
 interface Animal {
     public void eat();
