@@ -4,9 +4,8 @@ import java.util.*;
 import java.text.*;
 import java.math.*;
 import java.util.regex.*;
-// this one is about method overloading.
+//This one is about method overloading.
 // Addition Magic: Using method overloading, complete the implementation of the class AdditionMagic with 3 methods:
-// more in screenshots here:
 
 class AdditionMagic{
 
