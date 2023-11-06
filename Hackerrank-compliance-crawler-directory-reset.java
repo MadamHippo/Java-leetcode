@@ -13,10 +13,9 @@ class Result {
      */
 
     public static int minimumSteps(List<String> loggedMoves) {
-    // Write your code here
     // Approach: The problem can be solved using Stack. Follow the steps below to solve the problem:
     
-    
+
     // .equal means..do they have the same value. Do the object holds the same value.
     // == means do they point to the same instances.
     
