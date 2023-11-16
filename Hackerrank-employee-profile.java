@@ -1,3 +1,7 @@
+/* 
+The code demonstrates the use of inheritance and abstraction in a simple scenario of managing employee data. It takes user input to create instances of employees and displays their information using the implemented methods.
+*/
+
 import java.io.*;
 import java.util.*;
 import java.text.*;
