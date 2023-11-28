@@ -55,7 +55,7 @@ class Result {
     
     
     
-    /* if problem has no negatives (efficient!!)
+    /* if problem has no negatives (efficient!)
     
     int currentSum = arr.get(0);
     int left = 0;
