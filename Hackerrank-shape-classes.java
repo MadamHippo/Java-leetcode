@@ -1,4 +1,4 @@
-/* Implement your classes here. Do not use access modifiers in your class declarations.
+/* Implement your classes here. Do not use access modifiers in your class declarations:
 
 SHAPE CLASSES - In this challenge you will write 3 shape classes that return a calculated area for each shape.
 
